@@ -1,0 +1,1 @@
+<view><input class="input" placeholder="请输入员工手机号" placeholder-class="placeholder" data-event-opts="{{[['input',[['inputChange',['$event']]]]]}}" bindinput="__e"/><view class="Prompt">注：需手机号注册过小程序</view><view data-event-opts="{{[['tap',[['next',['$event']]]]]}}" class="{{[buttomStatus?'pay_active':'pay']}}" bindtap="__e">下一步</view></view>

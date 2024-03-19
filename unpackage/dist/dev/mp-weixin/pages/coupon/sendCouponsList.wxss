@@ -1,0 +1,76 @@
+@charset "UTF-8";
+/* 水平间距 */
+/* 水平间距 */
+page {
+  background-color: #f7f7f7;
+}
+.listBox {
+  padding: 0 32rpx;
+  background-color: #fff;
+  width: 750rpx;
+  background: #FFFFFF;
+  border-bottom: 2rpx solid #eaeaea;
+  height: 160rpx;
+}
+.listBox .num {
+  height: 56rpx;
+  font-size: 40rpx;
+  font-family: PingFangSC-Medium, PingFang SC;
+  font-weight: 500;
+  color: #323233;
+  line-height: 56rpx;
+  top: 24rpx;
+  right: 32rpx;
+}
+.listBox .number {
+  height: 44rpx;
+  font-size: 32rpx;
+  font-family: PingFangSC-Regular, PingFang SC;
+  font-weight: 400;
+  color: #323233;
+  line-height: 44rpx;
+  margin-top: 24rpx;
+}
+.listBox .name {
+  height: 34rpx;
+  font-size: 24rpx;
+  font-family: PingFangSC-Regular, PingFang SC;
+  font-weight: 400;
+  color: rgba(50, 50, 51, 0.5);
+  line-height: 34rpx;
+}
+.listBox .time {
+  height: 34rpx;
+  font-size: 24rpx;
+  font-family: PingFangSC-Regular, PingFang SC;
+  font-weight: 400;
+  color: rgba(50, 50, 51, 0.5);
+  line-height: 34rpx;
+}
+.dateText {
+  margin: 32rpx 0 0 32rpx;
+}
+.dateText .text {
+  height: 40rpx;
+  font-size: 28rpx;
+  font-family: PingFangSC-Medium, PingFang SC;
+  font-weight: 500;
+  color: #323233;
+  line-height: 40rpx;
+  margin-right: 6rpx;
+}
+.totalBox {
+  width: 686rpx;
+  height: 128rpx;
+  background: #FFFFFF;
+  border-radius: 8rpx;
+  margin: 16rpx 0 0 32rpx;
+  font-size: 32rpx;
+  font-family: PingFangSC-Medium, PingFang SC;
+  font-weight: 500;
+  color: #323233;
+  line-height: 128rpx;
+  padding-left: 30rpx;
+  margin-bottom: 64rpx;
+}
+

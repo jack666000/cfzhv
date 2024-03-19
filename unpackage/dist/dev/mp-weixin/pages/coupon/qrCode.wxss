@@ -1,0 +1,25 @@
+@charset "UTF-8";
+/* 水平间距 */
+/* 水平间距 */
+.line {
+  width: 750rpx;
+  height: 20rpx;
+  background-color: #f5f5f5;
+}
+.Refresh {
+  width: 224rpx;
+  height: 64rpx;
+  border-radius: 40rpx;
+  border: 2rpx solid #488cf5;
+  margin: 44rpx 0 0 264rpx;
+}
+.Refresh .text {
+  height: 64rpx;
+  font-size: 28rpx;
+  font-family: PingFangSC-Regular, PingFang SC;
+  font-weight: 400;
+  color: #488cf5;
+  line-height: 64rpx;
+  text-align: center;
+}
+

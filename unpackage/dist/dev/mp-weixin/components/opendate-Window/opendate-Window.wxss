@@ -1,0 +1,207 @@
+@charset "UTF-8";
+/* 水平间距 */
+/* 水平间距 */
+view.data-v-ea1209e0,
+scroll-view.data-v-ea1209e0,
+swiper.data-v-ea1209e0,
+swiper-item.data-v-ea1209e0,
+cover-view.data-v-ea1209e0,
+cover-image.data-v-ea1209e0,
+icon.data-v-ea1209e0,
+text.data-v-ea1209e0,
+rich-text.data-v-ea1209e0,
+progress.data-v-ea1209e0,
+button.data-v-ea1209e0,
+checkbox.data-v-ea1209e0,
+form.data-v-ea1209e0,
+input.data-v-ea1209e0,
+label.data-v-ea1209e0,
+radio.data-v-ea1209e0,
+slider.data-v-ea1209e0,
+switch.data-v-ea1209e0,
+textarea.data-v-ea1209e0,
+navigator.data-v-ea1209e0,
+audio.data-v-ea1209e0,
+camera.data-v-ea1209e0,
+image.data-v-ea1209e0,
+video.data-v-ea1209e0 {
+  box-sizing: border-box;
+}
+button.data-v-ea1209e0 {
+  padding: 0rpx;
+  margin: 0rpx;
+  border: none;
+  border-radius: 0rpx;
+  box-sizing: border-box;
+  background-color: transparent;
+}
+button.button-hover.data-v-ea1209e0 {
+  -webkit-transform: translate(3rpx, 3rpx);
+          transform: translate(3rpx, 3rpx);
+  background-color: transparent;
+}
+button.data-v-ea1209e0::after {
+  border: none;
+}
+.mask.data-v-ea1209e0 {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: #000;
+  opacity: 0.5;
+  z-index: 99;
+}
+.address-window.data-v-ea1209e0 {
+  background-color: #fff;
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  z-index: 6666;
+  padding: 32rpx 40rpx 200rpx;
+  transform: translate3d(0, 100%, 0);
+  -webkit-transform: translate3d(0, 100%, 0);
+  -ms-transform: translate3d(0, 100%, 0);
+  -moz-transform: translate3d(0, 100%, 0);
+  -o-transform: translate3d(0, 100%, 0);
+  transition: all 0.3s cubic-bezier(0.25, 0.5, 0.5, 0.9);
+  -webkit-transition: all 0.3s cubic-bezier(0.25, 0.5, 0.5, 0.9);
+  -moz-transition: all 0.3s cubic-bezier(0.25, 0.5, 0.5, 0.9);
+  -o-transition: all 0.3s cubic-bezier(0.25, 0.5, 0.5, 0.9);
+  border-radius: 24rpx 24rpx 0 0;
+  box-shadow: 0px 0px 30rpx 30rpx rgba(107, 127, 153, 0.3);
+  box-sizing: border-box;
+}
+.address-window.on.data-v-ea1209e0 {
+  transform: translate3d(0, 0, 0);
+  -webkit-transform: translate3d(0, 0, 0);
+  -ms-transform: translate3d(0, 0, 0);
+  -moz-transform: translate3d(0, 0, 0);
+  -o-transform: translate3d(0, 0, 0);
+}
+.address-window .title.data-v-ea1209e0 {
+  width: 100%;
+  padding: 36rpx 10rpx 40rpx;
+  box-sizing: border-box;
+  overflow: auto;
+}
+.address-window .title .title-logo.data-v-ea1209e0 {
+  float: left;
+  width: 40rpx;
+  height: 40rpx;
+  border-radius: 50%;
+  margin-right: 20rpx;
+}
+.address-window .title .title-txt.data-v-ea1209e0 {
+  float: left;
+  font-size: 28rpx;
+  font-family: PingFang SC, PingFang SC-Semibold;
+  font-weight: 600;
+  text-align: left;
+  color: #000;
+}
+.address-window .notes.data-v-ea1209e0 {
+  width: 100%;
+}
+.address-window .notes .notes-top.data-v-ea1209e0 {
+  width: 100%;
+  font-size: 32rpx;
+  font-family: PingFang SC, PingFang SC-Semibold;
+  font-weight: 600;
+  text-align: left;
+  color: #000;
+}
+.address-window .notes .notes-bot.data-v-ea1209e0 {
+  width: 100%;
+  font-size: 26rpx;
+  font-family: PingFang SC, PingFang SC-Semibold;
+  font-weight: 400;
+  text-align: left;
+  color: #666;
+  margin-top: 10rpx;
+}
+.address-window .userbox.data-v-ea1209e0 {
+  width: 100%;
+  border-top: 2rpx solid #ededed;
+  margin-top: 30rpx;
+}
+.address-window .userbox .mydata-arrow-right.data-v-ea1209e0 {
+  border-color: #fff;
+  padding: 0rpx !important;
+  margin: 0rpx !important;
+  border: none !important;
+  border-radius: 0rpx !important;
+  box-sizing: border-box !important;
+  background-color: transparent !important;
+}
+.address-window .userbox .userbox-item.data-v-ea1209e0 {
+  width: 100%;
+  height: 112rpx;
+  border-bottom: 2rpx solid #ededed;
+  overflow: auto;
+}
+.address-window .userbox .userbox-item .userbox-item-img.data-v-ea1209e0 {
+  float: left;
+  width: 70rpx;
+  height: 70rpx;
+  border-radius: 8rpx;
+  margin-top: 20rpx;
+  margin-right: 20rpx;
+}
+.address-window .userbox .userbox-item .userbox-item-txt.data-v-ea1209e0 {
+  float: left;
+  font-size: 26rpx;
+  font-family: PingFang SC, PingFang SC-Semibold;
+  font-weight: 400;
+  line-height: 112rpx;
+  text-align: left;
+  color: #666;
+}
+.address-window .userbox .userbox-item .userbox-item-nicheng.data-v-ea1209e0 {
+  float: left;
+  font-size: 26rpx;
+  font-family: PingFang SC, PingFang SC-Semibold;
+  font-weight: 400;
+  line-height: 112rpx;
+  text-align: left;
+  color: #000;
+}
+.address-window .userbox .userbox-item .userbox-item-input.data-v-ea1209e0 {
+  float: left;
+  font-size: 26rpx;
+  font-family: PingFang SC, PingFang SC-Semibold;
+  font-weight: 400;
+  line-height: 112rpx;
+  text-align: left;
+  color: #000;
+  margin-top: 34rpx;
+  margin-left: 36rpx;
+}
+.address-window .task-btn.data-v-ea1209e0 {
+  width: 80%;
+  padding: 0 30rpx;
+  box-sizing: border-box;
+  margin: 44rpx auto 0;
+}
+.address-window .task-btn .left.data-v-ea1209e0 {
+  float: left;
+  width: 210rpx;
+  height: 72rpx;
+  line-height: 72rpx;
+  text-align: center;
+  background: #F2F2F2;
+  border-radius: 8rpx;
+  font-size: 28rpx;
+  font-family: PingFang SC, PingFang SC-Regular;
+  font-weight: 400;
+  text-align: center;
+  color: #5DBC6F;
+}
+.address-window .task-btn .left.right.data-v-ea1209e0 {
+  float: right;
+  background: #5DBC6F;
+  color: #ffffff;
+}
+

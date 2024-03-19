@@ -1,0 +1,10 @@
+{
+  "navigationBarTitleText": "领取优惠券",
+  "enablePullDownRefresh": false,
+  "navigationBarTextStyle": "black",
+  "usingComponents": {
+    "wxmp-login": "/components/wxmpLogin/wxmpLogin",
+    "plate-input": "/components/uni-plate-input/uni-plate-input",
+    "alimp-login": "/components/alimpLogin/alimpLogin"
+  }
+}

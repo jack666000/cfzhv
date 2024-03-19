@@ -1,0 +1,1 @@
+<view><view class="inp flex-col"><view class="title">我的手机号</view><view class="phone">{{phone?phone:'-'}}</view></view><button class="buttonNo" open-type="getPhoneNumber" data-event-opts="{{[['getphonenumber',[['getPhoneNumber',['$event']]]]]}}" bindgetphonenumber="__e">{{(phone?'换绑手机号':'绑定手机号')+''}}</button></view>

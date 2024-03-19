@@ -1,0 +1,15 @@
+{
+  "dependencies": {
+    "dayjs": "^1.11.10"
+  },
+  "name": "cfzhv3.0",
+  "description": "【涵盖内容】：城市智慧停车系统，汽车新能源充电，两轮电动车充电，物业缴费，社区到访记录，人脸门禁，上门报修等。",
+  "version": "1.0.0",
+  "main": "main.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "jack",
+  "license": "ISC"
+}

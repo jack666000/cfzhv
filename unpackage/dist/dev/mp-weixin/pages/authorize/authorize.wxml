@@ -1,0 +1,1 @@
+<view><view class="title1">您好，</view><view class="title2">请点击授权 获取信息</view><button class="authorize" loading="{{isCode}}" disabled="{{isCode}}" data-event-opts="{{[['tap',[['wxLogin',['$event']]]]]}}" bindtap="__e">点击授权</button></view>

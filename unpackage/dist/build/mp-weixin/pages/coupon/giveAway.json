@@ -1,0 +1,8 @@
+{
+  "navigationBarTitleText": "赠送停车券",
+  "navigationBarTextStyle": "black",
+  "navigationBarBackgroundColor": "#FFFFFF",
+  "usingComponents": {
+    "plate-input": "/components/uni-plate-input/uni-plate-input"
+  }
+}

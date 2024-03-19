@@ -1,0 +1,1 @@
+<view><view class="weatherBox flex-col bb por"><view class="flex flex-col-center top"><view class="temperature">{{weatherInfo.tem+"℃"}}</view><view>{{weatherInfo.wea}}</view></view><view class="flex bottom"><view class="single-line">{{"空气质量："+weatherInfo.air}}</view></view></view></view>

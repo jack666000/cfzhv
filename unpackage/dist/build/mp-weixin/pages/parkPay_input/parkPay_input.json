@@ -1,0 +1,11 @@
+{
+  "navigationBarTitleText": "临停缴费",
+  "enablePullDownRefresh": false,
+  "navigationBarBackgroundColor": "#7EC0FB",
+  "usingComponents": {
+    "wxmp-login": "/components/wxmpLogin/wxmpLogin",
+    "header-title": "/components/headerTitle",
+    "plate-input": "/components/uni-plate-input/uni-plate-input",
+    "alimp-login": "/components/alimpLogin/alimpLogin"
+  }
+}

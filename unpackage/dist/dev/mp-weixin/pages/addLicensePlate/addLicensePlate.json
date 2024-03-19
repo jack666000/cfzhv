@@ -1,0 +1,9 @@
+{
+  "navigationBarTitleText": "添加车牌",
+  "enablePullDownRefresh": false,
+  "navigationBarBackgroundColor": "#7EC0FB",
+  "usingComponents": {
+    "header-title": "/components/headerTitle",
+    "plate-input": "/components/uni-plate-input/uni-plate-input"
+  }
+}

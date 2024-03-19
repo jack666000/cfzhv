@@ -1,0 +1,8 @@
+{
+  "navigationBarTitleText": "月卡开通",
+  "enablePullDownRefresh": false,
+  "navigationBarBackgroundColor": "#7EC0FB",
+  "usingComponents": {
+    "header-title": "/components/headerTitle"
+  }
+}

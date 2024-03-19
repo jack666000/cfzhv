@@ -1,0 +1,57 @@
+@charset "UTF-8";
+/* 水平间距 */
+/* 水平间距 */
+page {
+  background-color: #f7f7f7;
+}
+.buttonNo {
+  width: 90vw;
+  height: 100 upx;
+  line-height: 100 upx;
+  border-radius: 10 upx;
+  text-align: center;
+  color: #FFFFFF;
+  background: #488cf5;
+  margin-top: 68rpx;
+  margin-left: 32rpx;
+}
+.trip {
+  width: 280rpx;
+  height: 34rpx;
+  font-size: 24rpx;
+  font-weight: 400;
+  color: rgba(50, 50, 51, 0.5);
+  line-height: 34rpx;
+  margin: 32rpx 0 0 24rpx;
+}
+.inp {
+  width: 750rpx;
+  height: 248rpx;
+  background: #FFFFFF;
+  margin-top: 32rpx;
+  padding-left: 24rpx;
+  box-sizing: border-box;
+}
+.inp .title {
+  width: 100%;
+  text-align: center;
+  height: 44rpx;
+  font-size: 32rpx;
+  font-weight: 400;
+  color: #323233;
+  line-height: 44rpx;
+  margin-top: 64rpx;
+  opacity: .6;
+}
+.inp .phone {
+  width: 100%;
+  text-align: center;
+  height: 66rpx;
+  font-size: 48rpx;
+  font-family: PingFangSC-Medium, PingFang SC;
+  font-weight: 500;
+  color: #323233;
+  line-height: 66rpx;
+  margin-top: 12rpx;
+}
+

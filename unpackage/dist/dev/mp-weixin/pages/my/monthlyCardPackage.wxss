@@ -1,0 +1,90 @@
+@charset "UTF-8";
+/* 水平间距 */
+/* 水平间距 */
+page {
+  background: #F8F9FB;
+}
+.expirationPrompt {
+  height: 32rpx;
+  border-radius: 4rpx;
+  border: 2rpx solid #FF5151;
+  font-size: 20rpx;
+  font-family: PingFangSC-Regular, PingFang SC;
+  font-weight: 400;
+  color: #FF5151;
+  line-height: 32rpx;
+  margin-left: 16rpx;
+  padding: 0 5rpx;
+}
+.carParkName {
+  width: 590rpx;
+  height: 72rpx;
+  font-size: 26rpx;
+  font-family: PingFangSC-Regular, PingFang SC;
+  font-weight: 400;
+  color: rgba(50, 50, 51, 0.5);
+  line-height: 36rpx;
+  margin: 8rpx 0 0 40rpx;
+}
+.addCarBox {
+  width: 670rpx;
+  height: 136rpx;
+  background: rgba(222, 177, 155, 0.08);
+  border-radius: 12rpx;
+  border: 3rpx dashed #DEB19B;
+  margin: 46rpx 0 0 40rpx;
+  margin-bottom: 32rpx;
+}
+.addCarBox image {
+  width: 32rpx;
+  height: 32rpx;
+}
+.addCarBox .text {
+  height: 50rpx;
+  font-size: 36rpx;
+  font-family: PingFangSC-Regular, PingFang SC;
+  font-weight: 400;
+  color: #DEB19B;
+  line-height: 50rpx;
+}
+.mySetMeal {
+  width: 670rpx;
+  height: 328rpx;
+  background: #FFFFFF;
+  box-shadow: 0rpx 0rpx 22rpx 0rpx rgba(151, 151, 151, 0.2);
+  border-radius: 16rpx;
+  margin: 0rpx 0 32rpx 32rpx;
+}
+.mySetMeal .zs {
+  width: 176rpx;
+  height: 176rpx;
+  top: 0;
+  right: 0;
+}
+.mySetMeal .title1 {
+  height: 44rpx;
+  font-size: 32rpx;
+  font-family: PingFangSC-Medium, PingFang SC;
+  font-weight: 500;
+  color: #323233;
+  line-height: 44rpx;
+  margin-left: 32rpx;
+  margin-top: 32rpx;
+}
+.mySetMeal .title2 {
+  height: 36rpx;
+  font-size: 26rpx;
+  font-family: PingFangSC-Regular, PingFang SC;
+  font-weight: 400;
+  color: rgba(50, 50, 51, 0.5);
+  line-height: 36rpx;
+  margin-left: 32rpx;
+  margin-top: 12rpx;
+}
+.mySetMeal .upgrade {
+  width: 242rpx;
+  height: 108rpx;
+  margin-left: 8rpx;
+  margin-top: 24rpx;
+}
+

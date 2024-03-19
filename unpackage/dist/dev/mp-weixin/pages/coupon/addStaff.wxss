@@ -1,0 +1,51 @@
+@charset "UTF-8";
+/* 水平间距 */
+/* 水平间距 */
+page {
+  background-color: #f7f7f7;
+}
+.pay, .pay_active {
+  width: 686rpx;
+  height: 100rpx;
+  background: #488cf5;
+  border-radius: 16rpx;
+  opacity: 0.4;
+  font-size: 36rpx;
+  font-family: PingFangSC-Regular, PingFang SC;
+  font-weight: 400;
+  color: #FFFFFF;
+  line-height: 100rpx;
+  text-align: center;
+  margin: 126rpx 0 0 32rpx;
+}
+.pay_active {
+  background: #488cf5;
+  opacity: 1;
+}
+.placeholder {
+  height: 44rpx;
+  font-size: 32rpx;
+  font-family: PingFangSC-Regular, PingFang SC;
+  font-weight: 400;
+  color: rgba(50, 50, 51, 0.3);
+  line-height: 44rpx;
+}
+.input {
+  width: 750rpx;
+  height: 100rpx;
+  background: #FFFFFF;
+  margin-top: 24rpx;
+  padding-left: 24rpx;
+  box-sizing: border-box;
+}
+.Prompt {
+  width: 480rpx;
+  height: 34rpx;
+  font-size: 24rpx;
+  font-family: PingFangSC-Regular, PingFang SC;
+  font-weight: 400;
+  color: rgba(50, 50, 51, 0.3);
+  line-height: 34rpx;
+  margin: 16rpx 0 0 24rpx;
+}
+

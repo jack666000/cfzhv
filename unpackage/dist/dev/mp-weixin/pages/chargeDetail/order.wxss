@@ -1,0 +1,93 @@
+@charset "UTF-8";
+/* 水平间距 */
+/* 水平间距 */
+page {
+  background: #F8F9FB;
+  padding-bottom: 30rpx;
+}
+.statusButton_blue, .statusButton_gray {
+  width: 134rpx;
+  height: 60rpx;
+  background: #488CF5;
+  border-radius: 200rpx;
+  font-size: 28rpx;
+  font-weight: 400;
+  color: #FFFFFF;
+  line-height: 60rpx;
+  text-align: center;
+  margin: 24rpx 0 0 20rpx;
+}
+.statusButton_gray {
+  background: #AEB6C2;
+}
+.endButton {
+  width: 160rpx;
+  height: 60rpx;
+  border-radius: 200rpx;
+  border: 2rpx solid #F58748;
+  font-size: 28rpx;
+  font-weight: 400;
+  color: #F58748;
+  line-height: 60rpx;
+  text-align: center;
+  margin: 24rpx 0 0 298rpx;
+}
+.time2, .price {
+  height: 40rpx;
+  font-size: 28rpx;
+  font-weight: 400;
+  color: rgba(50, 50, 51, 0.6);
+  line-height: 40rpx;
+  margin-top: 24rpx;
+}
+.price {
+  margin-top: 12rpx;
+}
+.Box {
+  width: 670rpx;
+  height: 412rpx;
+  background: #FFFFFF;
+  border-radius: 8rpx;
+  border: 2rpx solid #EFF0F2;
+  margin: 32rpx 0 0 40rpx;
+  padding: 0 32rpx 22rpx 32rpx;
+}
+.Box .nameBox {
+  width: 100%;
+  height: 112rpx;
+}
+.Box .nameBox .name {
+  width: 432rpx;
+  height: 64rpx;
+  font-size: 32rpx;
+  font-weight: 500;
+  color: #323233;
+  line-height: 64rpx;
+}
+.Box .nameBox .time {
+  width: 158rpx;
+  height: 40rpx;
+  font-size: 28rpx;
+  font-weight: 400;
+  color: rgba(50, 50, 51, 0.6);
+  line-height: 40rpx;
+}
+.line {
+  width: 606rpx;
+  height: 1rpx;
+  background: #EAEAEA;
+  opacity: .5;
+}
+.notBill {
+  width: 216rpx;
+  height: 34rpx;
+  font-size: 24rpx;
+  font-family: PingFangSC-Regular, PingFang SC;
+  font-weight: 400;
+  color: rgba(50, 50, 51, 0.7);
+  line-height: 34rpx;
+  margin-top: 24rpx;
+  margin-left: 268rpx;
+  text-align: center;
+}
+

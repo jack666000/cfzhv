@@ -1,0 +1,128 @@
+@charset "UTF-8";
+/* 水平间距 */
+/* 水平间距 */
+page {
+  background: #F7F7F7;
+}
+.payNum {
+  width: 750rpx;
+  height: 88rpx;
+  background: #FFFFFF;
+  font-size: 28rpx;
+  font-family: PingFangSC-Medium, PingFang SC;
+  font-weight: 500;
+  color: #323233;
+  line-height: 88rpx;
+  border-top: 2rpx solid #eaeaea;
+  padding-left: 32rpx;
+}
+.Prompt {
+  width: 480rpx;
+  height: 34rpx;
+  font-size: 24rpx;
+  font-family: PingFangSC-Regular, PingFang SC;
+  font-weight: 400;
+  color: rgba(50, 50, 51, 0.3);
+  line-height: 34rpx;
+  margin: 16rpx 0 0 24rpx;
+}
+.pay, .pay_active {
+  width: 686rpx;
+  height: 100rpx;
+  background: #488cf5;
+  border-radius: 16rpx;
+  opacity: 0.4;
+  font-size: 36rpx;
+  font-family: PingFangSC-Regular, PingFang SC;
+  font-weight: 400;
+  color: #FFFFFF;
+  line-height: 100rpx;
+  text-align: center;
+  margin: 52rpx 0 0 32rpx;
+}
+.pay_active {
+  background: #488cf5;
+  opacity: 1;
+}
+.inputBox {
+  width: 750rpx;
+  height: 198rpx;
+  background: #FFFFFF;
+  margin-top: 32rpx;
+}
+.inputBox .title {
+  width: 224rpx;
+  height: 44rpx;
+  font-size: 32rpx;
+  font-family: PingFangSC-Medium, PingFang SC;
+  font-weight: 500;
+  color: rgba(50, 50, 51, 0.32);
+  line-height: 44rpx;
+  margin: 22rpx 0 0 32rpx;
+}
+.line {
+  width: 6rpx;
+  height: 64rpx;
+  background: #488cf5;
+  border-radius: 4rpx;
+  margin: 34rpx 0 0 36rpx;
+}
+.input {
+  width: 320rpx;
+  height: 44rpx;
+  margin: 44rpx 0 0 12rpx;
+}
+.placeholder {
+  font-size: 32rpx;
+  font-family: PingFangSC-Regular, PingFang SC;
+  font-weight: 400;
+  color: rgba(50, 50, 51, 0.3);
+  line-height: 44rpx;
+}
+.noLicenseplateBox {
+  width: 624rpx;
+  height: 776rpx;
+  background: #FDFEFF;
+  border-radius: 16rpx;
+}
+.noLicenseplateBox .image {
+  width: 200rpx;
+  height: 200rpx;
+  margin-top: 104rpx;
+}
+.noLicenseplateBox .title1 {
+  width: 294rpx;
+  height: 36rpx;
+  font-size: 36rpx;
+  font-family: PingFangSC-Semibold, PingFang SC;
+  font-weight: 600;
+  color: #323233;
+  line-height: 36rpx;
+  margin-top: 16rpx;
+  text-align: center;
+}
+.noLicenseplateBox .title2 {
+  width: 342rpx;
+  height: 80rpx;
+  font-size: 28rpx;
+  font-family: PingFangSC-Regular, PingFang SC;
+  font-weight: 400;
+  color: rgba(50, 50, 51, 0.5);
+  line-height: 40rpx;
+  margin-top: 32rpx;
+  text-align: center;
+}
+.noLicenseplateBox .button {
+  width: 456rpx;
+  height: 100rpx;
+  background: #488cf5;
+  border-radius: 16rpx;
+  font-size: 36rpx;
+  font-family: PingFangSC-Regular, PingFang SC;
+  font-weight: 400;
+  color: #FFFFFF;
+  line-height: 100rpx;
+  text-align: center;
+  margin-top: 130rpx;
+}
+

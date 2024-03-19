@@ -1,0 +1,1 @@
+<view><view class="title1">您好，</view><view class="title2">{{isLogin?'您已授权 正在处理~':'请点击授权'}}</view><button class="authorize" loading="{{isCode}}" data-event-opts="{{[['tap',[['wxLogin',['$event']]]]]}}" bindtap="__e">{{''+(isLogin?'您已授权':'点击授权')+''}}</button></view>

@@ -1,0 +1,10 @@
+{
+  "navigationBarTitleText": "",
+  "enablePullDownRefresh": false,
+  "navigationBarBackgroundColor": "#7EC0FB",
+  "usingComponents": {
+    "wxmp-login": "/components/wxmpLogin/wxmpLogin",
+    "alimp-login": "/components/alimpLogin/alimpLogin",
+    "bind-phone-popup": "/components/bindPhonePopup/index"
+  }
+}

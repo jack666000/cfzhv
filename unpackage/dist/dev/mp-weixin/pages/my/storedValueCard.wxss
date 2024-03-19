@@ -1,0 +1,128 @@
+@charset "UTF-8";
+/* 水平间距 */
+/* 水平间距 */
+page {
+  padding-top: 36rpx;
+}
+.applyButton {
+  width: 160rpx;
+  height: 80rpx;
+  right: 26rpx;
+  bottom: 26rpx;
+  position: absolute;
+  line-height: 80rpx;
+  border-radius: 10rpx;
+  color: #fff;
+  text-align: center;
+  background-color: #6794f6;
+}
+.nextButton {
+  width: 586rpx;
+  height: 100rpx;
+  background: #6794F6;
+  border-radius: 10rpx;
+  font-size: 36rpx;
+  font-weight: 600;
+  color: rgba(255, 255, 255, 0.87);
+  line-height: 100rpx;
+  text-align: center;
+  margin: 26rpx 0 0 50rpx;
+}
+.popupBox2 {
+  width: 686rpx;
+  height: 384rpx;
+  background: #FFFFFF;
+  border-radius: 16rpx;
+  margin-left: 32rpx;
+  overflow: hidden;
+}
+.popupBox2 .text1 {
+  width: 252rpx;
+  height: 50rpx;
+  font-size: 36rpx;
+  font-weight: 600;
+  color: #323233;
+  line-height: 50rpx;
+  margin: 64rpx 0 0 34rpx;
+}
+.popupBox2 .text2 {
+  width: 408rpx;
+  height: 34rpx;
+  font-size: 24rpx;
+  font-weight: 400;
+  color: #323233;
+  line-height: 34rpx;
+  margin: 16rpx 0 0 34rpx;
+}
+.popupBox2 .intoOrder {
+  width: 620rpx;
+  height: 100rpx;
+  background: #488CF5;
+  border-radius: 16rpx;
+  margin-top: 48rpx;
+  font-size: 36rpx;
+  font-family: PingFangSC-Medium, PingFang SC;
+  font-weight: 500;
+  color: #FFFFFF;
+  line-height: 100rpx;
+  text-align: center;
+  margin-left: 33rpx;
+}
+.mySetMeal {
+  width: 670rpx;
+  height: 328rpx;
+  background: #FFFFFF;
+  box-shadow: 0rpx 0rpx 22rpx 0rpx rgba(151, 151, 151, 0.2);
+  border-radius: 16rpx;
+  margin: 0rpx 0 32rpx 40rpx;
+}
+.mySetMeal .zs {
+  width: 176rpx;
+  height: 176rpx;
+  top: 0;
+  right: 0;
+}
+.mySetMeal .title1 {
+  height: 44rpx;
+  font-size: 32rpx;
+  font-weight: 500;
+  color: #323233;
+  line-height: 44rpx;
+  margin-left: 32rpx;
+  margin-top: 32rpx;
+}
+.mySetMeal .title2 {
+  height: 36rpx;
+  font-size: 26rpx;
+  font-family: PingFangSC-Regular, PingFang SC;
+  font-weight: 400;
+  color: rgba(50, 50, 51, 0.5);
+  line-height: 36rpx;
+  margin-left: 32rpx;
+  margin-top: 12rpx;
+}
+.mySetMeal .upgrade {
+  width: 242rpx;
+  height: 108rpx;
+  margin-left: 8rpx;
+  margin-top: 24rpx;
+}
+.monthlyCardButton {
+  width: 670rpx;
+  height: 96rpx;
+  background: #6794f6;
+  border-radius: 10rpx;
+  position: fixed;
+  left: 40rpx;
+  bottom: 66rpx;
+}
+.monthlyCardButton .text {
+  width: 128rpx;
+  height: 44rpx;
+  font-size: 32rpx;
+  font-weight: 500;
+  color: #ffffff;
+  line-height: 44rpx;
+  margin-left: 12rpx;
+}
+

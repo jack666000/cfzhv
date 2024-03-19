@@ -1,0 +1,85 @@
+@charset "UTF-8";
+/* 水平间距 */
+/* 水平间距 */
+page {
+  background-color: #f7f7f7;
+}
+.logoutButton {
+  width: 690rpx;
+  height: 96rpx;
+  background: #6794f6;
+  border-radius: 10rpx;
+  position: fixed;
+  bottom: 52rpx;
+  left: 30rpx;
+}
+.logoutButton .text {
+  width: 128rpx;
+  height: 44rpx;
+  font-size: 32rpx;
+  font-family: PingFangSC-Medium, PingFang SC;
+  font-weight: 500;
+  color: #ffffff;
+  line-height: 44rpx;
+  margin-left: 6rpx;
+}
+.alike {
+  width: 750rpx;
+  padding: 26rpx 3vw;
+  background-color: #FFFFFF;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 34rpx;
+}
+.alike .left {
+  height: 44rpx;
+  font-size: 32rpx;
+  font-weight: 400;
+  color: rgba(50, 50, 51, 0.7);
+  line-height: 44rpx;
+}
+.alike .right {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+.alike .right > view {
+  color: rgba(50, 50, 51, 0.5);
+  font-size: 30rpx;
+}
+.alike .right > view image {
+  width: 104rpx;
+  height: 104rpx;
+  border-radius: 50rpx;
+}
+.alike .right .iconfont {
+  color: #0A2463;
+  font-size: 32rpx;
+  font-weight: 600;
+  margin-left: 20rpx;
+}
+.headPortraits {
+  border-bottom: 2rpx solid #EFEFEF;
+}
+.mobile {
+  margin-top: 20rpx;
+}
+.region-box > view {
+  width: 90vw;
+  margin: 0rpx 5vw;
+  height: 100rpx;
+  color: #0A2463;
+  font-size: 32rpx;
+  line-height: 100rpx;
+  text-align: center;
+  border-bottom: 2rpx solid #EFEFEF;
+  font-weight: 600;
+}
+.region-box .cancel {
+  color: #0A2463;
+  opacity: 0.5;
+}
+

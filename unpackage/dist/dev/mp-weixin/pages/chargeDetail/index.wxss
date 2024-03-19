@@ -1,0 +1,230 @@
+@charset "UTF-8";
+/* 水平间距 */
+/* 水平间距 */
+page {
+  background: #F5F7FF;
+  padding-bottom: 200rpx;
+}
+.bottomBox {
+  width: 750rpx;
+  height: 165rpx;
+  background: #FFFFFF;
+  box-shadow: 0rpx -12rpx 14rpx 0rpx rgba(222, 220, 238, 0.5);
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  padding: 0 32rpx;
+  overflow: hidden;
+  padding-bottom: 20rpx;
+}
+.bottomBox .left {
+  width: 332rpx;
+  height: 100rpx;
+  background: rgba(3, 148, 246, 0.18);
+  border-radius: 10rpx;
+}
+.bottomBox .left image {
+  width: 40rpx;
+  height: 40rpx;
+}
+.bottomBox .left .text {
+  height: 50rpx;
+  font-size: 36rpx;
+  font-weight: 600;
+  color: #6794F6;
+  line-height: 50rpx;
+  margin-left: 12rpx;
+}
+.bottomBox .right {
+  width: 332rpx;
+  height: 100rpx;
+  background: #6794F6;
+  border-radius: 10rpx;
+}
+.bottomBox .right image {
+  width: 40rpx;
+  height: 40rpx;
+}
+.bottomBox .right .text {
+  height: 50rpx;
+  font-size: 36rpx;
+  font-weight: 600;
+  color: #FFFFFF;
+  line-height: 50rpx;
+  margin-left: 12rpx;
+}
+.imageBox {
+  width: 686rpx;
+  height: 216rpx;
+  background: #FFFFFF;
+  border-radius: 10rpx;
+  margin-left: 32rpx;
+}
+.feeBox {
+  width: 686rpx;
+  background: #FFFFFF;
+  border-radius: 10rpx;
+  margin: 32rpx 0 0 32rpx;
+  padding: 32rpx;
+}
+.feeBox .feeBox_item2 {
+  width: 622rpx;
+  height: 70rpx;
+  background: #F8F8F8;
+  border-radius: 8rpx;
+  margin-top: 28rpx;
+}
+.feeBox .feeBox_item1 {
+  width: 622rpx;
+  height: 70rpx;
+  background: rgba(103, 148, 246, 0.1);
+  border-radius: 8rpx;
+  border: 2rpx solid #6794F6;
+  margin-top: 24rpx;
+  font-size: 24rpx;
+  color: #6794F6;
+  font-weight: 400;
+}
+.feeBox .name {
+  height: 50rpx;
+  font-size: 36rpx;
+  font-weight: 600;
+  color: #323233;
+  line-height: 50rpx;
+}
+.scrollViewImage {
+  width: 262rpx;
+  height: 152rpx;
+  border-radius: 16rpx;
+  margin: 32rpx 0 0 32rpx;
+  display: inline-block;
+}
+.price {
+  margin-top: 24rpx;
+}
+.price .distance view:nth-child(2) {
+  height: 34rpx;
+  font-size: 24rpx;
+  font-weight: 400;
+  color: #434343;
+  line-height: 34rpx;
+  margin-left: 8rpx;
+}
+.changeStatusBox_text {
+  height: 66rpx;
+  font-size: 24rpx;
+  font-weight: 400;
+  color: rgba(50, 50, 51, 0.5);
+  line-height: 34rpx;
+}
+.changeStatusBox_red, .changeStatusBox_blue, .changeStatusBox_gray {
+  width: 120rpx;
+  height: 44rpx;
+  background: rgba(255, 158, 158, 0.34);
+  border-radius: 22rpx;
+  font-size: 22rpx;
+  font-weight: 600;
+  color: #FF7777;
+  line-height: 44rpx;
+  text-align: center;
+}
+.changeStatusBox_blue {
+  background: rgba(168, 179, 255, 0.34);
+  color: #8393FD;
+}
+.changeStatusBox_gray {
+  background: rgba(190, 194, 223, 0.34);
+  color: #A1A3B1;
+}
+.bgBox {
+  width: 750rpx;
+  height: 666rpx;
+  background: linear-gradient(360deg, #F5F7FF 0%, #A6C1FB 100%);
+}
+.bgBox .backIcon {
+  width: 64rpx;
+  height: 64rpx;
+  margin: 100rpx 0 0 32rpx;
+}
+.bgBox .navTitle {
+  width: 160rpx;
+  height: 56rpx;
+  font-size: 40rpx;
+  font-weight: 600;
+  color: #FFFFFF;
+  line-height: 56rpx;
+  margin: 100rpx 0 0 190rpx;
+}
+.bgBox .infoBox {
+  width: 686rpx;
+  height: 415rpx;
+  background: #FFFFFF;
+  border-radius: 10rpx;
+  margin: 60rpx 0 0 32rpx;
+  padding: 32rpx;
+}
+.bgBox .infoBox .line {
+  width: 630rpx;
+  opacity: 0.43;
+  border: 2rpx dashed #979797;
+  margin: 42rpx 0 0 0;
+}
+.bgBox .infoBox .name {
+  height: 50rpx;
+  font-size: 36rpx;
+  font-weight: 600;
+  color: #323233;
+  line-height: 50rpx;
+}
+.bgBox .infoBox .address {
+  margin-top: 8rpx;
+}
+.bgBox .infoBox .address view:nth-child(1) {
+  width: 514rpx;
+  height: 32rpx;
+  font-size: 24rpx;
+  font-weight: 400;
+  color: #434343;
+  line-height: 34rpx;
+}
+.bgBox .infoBox .spaces {
+  height: 32rpx;
+  font-size: 24rpx;
+  font-weight: 400;
+  color: #323233;
+  line-height: 32rpx;
+  margin-top: 16rpx;
+}
+.feeBoxItem1 {
+  width: 92rpx;
+  height: 50rpx;
+  background: linear-gradient(138deg, #A0C6FB 0%, #6794F6 100%);
+  border-radius: 6rpx 0rpx 0rpx 6rpx;
+  font-size: 24rpx;
+  font-weight: 400;
+  color: #FFFFFF;
+  line-height: 50rpx;
+  text-align: center;
+}
+.feeBoxItem2 {
+  height: 50rpx;
+  border-radius: 0rpx 6rpx 6rpx 0;
+  border: 2rpx solid #6794F6;
+  font-size: 24rpx;
+  font-weight: 400;
+  color: #6D99F7;
+  line-height: 50rpx;
+  text-align: center;
+  padding: 0 16rpx;
+}
+.feeBoxText {
+  width: 622rpx;
+  height: 70rpx;
+  font-size: 24rpx;
+  font-family: PingFangSC-Regular, PingFang SC;
+  font-weight: 400;
+  color: #434343;
+  line-height: 34rpx;
+  margin-top: 24rpx;
+}
+

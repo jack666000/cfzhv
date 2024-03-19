@@ -1,0 +1,14 @@
+{
+  "navigationBarTitleText": "",
+  "navigationStyle": "custom",
+  "usingComponents": {
+    "uni-popup": "/uni_modules/uni-popup/components/uni-popup/uni-popup",
+    "wxmp-login": "/components/wxmpLogin/wxmpLogin",
+    "inside": "/components/ParkAndCharingList/inside",
+    "external": "/components/ParkAndCharingList/external",
+    "charge": "/components/ParkAndCharingList/charge",
+    "weather": "/pages/index/components/weather",
+    "alimp-login": "/components/alimpLogin/alimpLogin",
+    "bind-phone-popup": "/components/bindPhonePopup/index"
+  }
+}

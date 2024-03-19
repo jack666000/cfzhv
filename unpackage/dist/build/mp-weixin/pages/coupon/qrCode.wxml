@@ -1,0 +1,1 @@
+<view><image style="width:610rpx;height:610rpx;margin:276rpx 0 0 70rpx;" src="{{info.image}}"></image><view data-event-opts="{{[['tap',[['refresh',['$event']]]]]}}" class="Refresh u-flex-r u-col-center u-row-center" bindtap="__e"><view class="text">刷新二维码</view></view><u-top-tips class="vue-ref" vue-id="1d860038-1" data-ref="uTips" bind:__l="__l"></u-top-tips></view>

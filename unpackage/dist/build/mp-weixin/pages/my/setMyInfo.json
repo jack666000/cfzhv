@@ -1,0 +1,8 @@
+{
+  "navigationBarTitleText": "设置",
+  "enablePullDownRefresh": false,
+  "navigationBarBackgroundColor": "#7EC0FB",
+  "usingComponents": {
+    "opendate-window": "/components/opendate-Window/opendate-Window"
+  }
+}

@@ -1,0 +1,89 @@
+@charset "UTF-8";
+/* 水平间距 */
+/* 水平间距 */
+page {
+  background: #F8F9FB;
+  padding-bottom: 200rpx;
+}
+.carBox {
+  width: 670rpx;
+  height: 190rpx;
+  background: #FFFFFF;
+  border-radius: 12rpx;
+  border: 2rpx solid rgba(151, 151, 151, 0.08);
+  margin-bottom: 40rpx;
+  margin-left: 40rpx;
+}
+.carBox .numberPlate {
+  height: 190rpx;
+  font-size: 44rpx;
+  font-family: PingFangSC-Medium, PingFang SC;
+  font-weight: 500;
+  color: #323233;
+  line-height: 190rpx;
+  margin: 0 0 0 40rpx;
+}
+.carBox .coupon {
+  height: 44rpx;
+  font-size: 32rpx;
+  font-family: PingFangSC-Regular, PingFang SC;
+  font-weight: 400;
+  color: #DEB19B;
+  line-height: 44rpx;
+  margin: 6rpx 0 0 40rpx;
+}
+.carBox image {
+  width: 32rpx;
+  height: 32rpx;
+  position: absolute;
+  top: 80rpx;
+  right: 40rpx;
+}
+.list_not {
+  width: 220rpx;
+  height: 108rpx;
+  margin-top: 280rpx;
+}
+.no_title1 {
+  width: 192rpx;
+  height: 34rpx;
+  font-size: 24rpx;
+  font-family: PingFangSC-Regular, PingFang SC;
+  font-weight: 400;
+  color: rgba(50, 50, 51, 0.7);
+  line-height: 34rpx;
+  margin-top: 24rpx;
+}
+.no_title2 {
+  width: 220rpx;
+  height: 28rpx;
+  font-size: 20rpx;
+  font-family: PingFangSC-Regular, PingFang SC;
+  font-weight: 400;
+  color: rgba(50, 50, 51, 0.5);
+  line-height: 28rpx;
+  margin-top: 4rpx;
+}
+.addCarBox {
+  width: 670rpx;
+  height: 136rpx;
+  background: rgba(72, 140, 245, 0.08);
+  border-radius: 12rpx;
+  border: 3rpx dashed #488CF5;
+  margin: 46rpx 0 0 40rpx;
+  margin-bottom: 32rpx;
+}
+.addCarBox image {
+  width: 32rpx;
+  height: 32rpx;
+}
+.addCarBox .text {
+  width: 144rpx;
+  height: 50rpx;
+  font-size: 36rpx;
+  font-family: PingFangSC-Regular, PingFang SC;
+  font-weight: 400;
+  color: #488CF5;
+  line-height: 50rpx;
+}
+

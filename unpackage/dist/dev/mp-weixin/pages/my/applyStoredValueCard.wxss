@@ -1,0 +1,76 @@
+@charset "UTF-8";
+/* 水平间距 */
+/* 水平间距 */
+.round {
+  width: 32rpx;
+  height: 32rpx;
+  border: 2rpx solid #D0D1D5;
+  border-radius: 50%;
+}
+.round_ac {
+  width: 32rpx;
+  height: 32rpx;
+  border: 2rpx solid #6794F6;
+  border-radius: 50%;
+}
+.contentBox {
+  width: 686rpx;
+  background: #FFFFFF;
+  border-radius: 16rpx;
+  position: relative;
+  top: -166rpx;
+  left: 32rpx;
+  padding: 34rpx 32rpx;
+}
+.parkInutBox {
+  width: 622rpx;
+  height: 130rpx;
+  background: #F5F7FB;
+  border-radius: 10rpx;
+}
+.parkInutBox .title {
+  width: 120rpx;
+  height: 44rpx;
+  font-size: 32rpx;
+  font-weight: 600;
+  color: #323233;
+  line-height: 44rpx;
+  margin-left: 32rpx;
+}
+.nextButton {
+  width: 686rpx;
+  height: 100rpx;
+  background: #6794F6;
+  border-radius: 10rpx;
+  font-size: 36rpx;
+  font-weight: 600;
+  color: rgba(255, 255, 255, 0.87);
+  line-height: 100rpx;
+  text-align: center;
+  position: fixed;
+  left: 32rpx;
+  bottom: 92rpx;
+}
+.bgBox {
+  width: 750rpx;
+  height: 588rpx;
+  background: linear-gradient(360deg, #F5F7FF 0%, rgba(240, 244, 255, 0) 27%, #91B1F9 66%, #6794F6 100%);
+}
+.textone {
+  height: 66rpx;
+  font-size: 48rpx;
+  font-weight: 600;
+  color: #FFFFFF;
+  line-height: 66rpx;
+  margin-left: 32rpx;
+}
+.texttwo {
+  height: 40rpx;
+  font-size: 28rpx;
+  font-weight: 500;
+  color: rgba(255, 255, 255, 0.87);
+  line-height: 40rpx;
+  margin-left: 32rpx;
+  margin-top: 4rpx;
+}
+

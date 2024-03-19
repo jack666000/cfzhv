@@ -1,0 +1,141 @@
+@charset "UTF-8";
+/* 水平间距 */
+/* 水平间距 */
+page {
+  background: #488CF5;
+  width: 750rpx;
+}
+.endChargingBox {
+  width: 670rpx;
+  height: 100rpx;
+  background: #FFFFFF;
+  border-radius: 16rpx;
+  border: 2rpx solid #FFFFFF;
+  margin: 170rpx 0 0 40rpx;
+  font-size: 40rpx;
+  font-weight: 500;
+  color: #488CF5;
+  line-height: 100rpx;
+  text-align: center;
+}
+.moneyBox {
+  margin-left: 80rpx;
+}
+.moneyBox .title {
+  height: 32rpx;
+  font-size: 32rpx;
+  font-weight: 400;
+  color: #FFFFFF;
+  line-height: 32rpx;
+}
+.moneyBox .num {
+  height: 66rpx;
+  font-size: 48rpx;
+  font-weight: 600;
+  color: #FFFFFF;
+  line-height: 66rpx;
+  margin-left: 52rpx;
+  margin-right: 16rpx;
+}
+.moneyBox .unit {
+  height: 34rpx;
+  font-size: 24rpx;
+  font-weight: 400;
+  color: #FFFFFF;
+  line-height: 34rpx;
+}
+.ChargingInfo {
+  margin: 64rpx 0 0 80rpx;
+  display: flex;
+}
+.ChargingInfo .ampereBox {
+  display: flex;
+  flex-direction: column;
+  margin-left: 30rpx;
+}
+.ChargingInfo .ampereBox .ampereBoxItem {
+  width: 90rpx;
+  height: 44rpx;
+  font-size: 32rpx;
+  font-weight: 400;
+  color: #FFFFFF;
+  line-height: 44rpx;
+}
+.ChargingInfo .line {
+  width: 2rpx;
+  height: 96rpx;
+  background: #FFFFFF;
+  margin-left: 24rpx;
+  margin-top: 10rpx;
+}
+.ChargingInfo .powerBox {
+  display: flex;
+  flex-direction: column;
+}
+.ChargingInfo .powerBox .power {
+  display: flex;
+  margin-top: 8rpx;
+}
+.ChargingInfo .powerBox .power .num {
+  height: 66rpx;
+  font-size: 48rpx;
+  font-weight: 600;
+  color: #FFFFFF;
+  line-height: 66rpx;
+}
+.ChargingInfo .powerBox .power .unit {
+  width: 42rpx;
+  height: 34rpx;
+  font-size: 24rpx;
+  font-weight: 400;
+  color: #FFFFFF;
+  line-height: 34rpx;
+  margin-left: 10rpx;
+  margin-top: 8rpx;
+}
+.ChargingInfo .powerBox .title {
+  width: 132rpx;
+  height: 44rpx;
+  font-size: 32rpx;
+  font-weight: 400;
+  color: #FFFFFF;
+  line-height: 44rpx;
+}
+.estimatedTime {
+  width: 400rpx;
+  height: 32rpx;
+  font-size: 32rpx;
+  font-weight: 400;
+  color: #FFFFFF;
+  line-height: 32rpx;
+  margin: 14rpx 0 0 80rpx;
+}
+.scheduleBox {
+  margin: 106rpx 0 0 80rpx;
+  align-items: flex-start;
+}
+.scheduleBox .one {
+  height: 140rpx;
+  font-size: 120rpx;
+  font-weight: 600;
+  color: #FFFFFF;
+  line-height: 140rpx;
+  letter-spacing: 2rpx;
+}
+.scheduleBox .two {
+  width: 42rpx;
+  height: 56rpx;
+  font-size: 40rpx;
+  font-weight: 600;
+  color: #FFFFFF;
+  line-height: 56rpx;
+  margin-top: 14rpx;
+}
+.bg {
+  position: fixed;
+  top: 150rpx;
+  right: 0;
+  width: 318rpx;
+  height: 760rpx;
+}
+

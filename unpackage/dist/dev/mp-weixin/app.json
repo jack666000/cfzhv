@@ -1,0 +1,86 @@
+{
+  "pages": [
+    "pages/index/index",
+    "pages/mapView/index",
+    "pages/my/my",
+    "pages/monthlyCard/index",
+    "pages/monthlyCard/choosePackage",
+    "pages/addLicensePlate/addLicensePlate",
+    "pages/monthlyCard/pay",
+    "pages/parkingLotDetail/parkingLotDetail",
+    "pages/pay/pay",
+    "pages/parkPay_input/parkPay_input",
+    "pages/my/setMyInfo",
+    "pages/my/changePhone/index",
+    "pages/chargeDetail/index",
+    "pages/authorize/authorize",
+    "pages/parkingRecords/parkingRecords",
+    "pages/myCar/myCar",
+    "pages/pay/billList",
+    "pages/pay/paymentComplete",
+    "pages/chargeDetail/pay",
+    "pages/mapView/chargeMap",
+    "pages/chargeDetail/scanCodeElectricVehicleStart",
+    "pages/chargeDetail/scanCodeBicycleStart",
+    "pages/chargeDetail/electricVehicleStart",
+    "pages/chargeDetail/bicycleStart",
+    "pages/chargeDetail/order",
+    "pages/chargeDetail/charging",
+    "pages/pay/scanCode",
+    "pages/my/myWallet",
+    "pages/my/recharge",
+    "pages/my/monthlyCardPackage",
+    "pages/my/noLicencePlateCar",
+    "pages/my/emergency",
+    "pages/my/orderList",
+    "pages/my/orderDetail",
+    "pages/bluetoothTest/bluetoothTest",
+    "pages/pay/scanCodeGetCoupon",
+    "pages/coupon/index",
+    "pages/coupon/buyParkingTicket",
+    "pages/coupon/giveAway",
+    "pages/coupon/addStaff",
+    "pages/coupon/editStaff",
+    "pages/coupon/sendCouponsList",
+    "pages/coupon/qrCode",
+    "pages/my/myCoupon",
+    "pages/my/storedValueCard",
+    "pages/my/applyStoredValueCard"
+  ],
+  "subPackages": [],
+  "window": {
+    "navigationBarTextStyle": "white",
+    "navigationBarTitleText": "",
+    "navigationBarBackgroundColor": "#F8F8F8",
+    "backgroundColor": "#F8F8F8"
+  },
+  "tabBar": {
+    "color": "#909399",
+    "selectedColor": "#488cf5",
+    "borderStyle": "black",
+    "backgroundColor": "#ffffff",
+    "list": [
+      {
+        "pagePath": "pages/index/index",
+        "iconPath": "static/tabbar/home.png",
+        "selectedIconPath": "static/tabbar/home_ac.png",
+        "text": "首页"
+      },
+      {
+        "pagePath": "pages/my/my",
+        "iconPath": "static/tabbar/my.png",
+        "selectedIconPath": "static/tabbar/my_ac.png",
+        "text": "我的"
+      }
+    ]
+  },
+  "permission": {
+    "scope.userLocation": {
+      "desc": "使用定位获取您的当前位置"
+    }
+  },
+  "requiredPrivateInfos": [
+    "getLocation"
+  ],
+  "usingComponents": {}
+}
